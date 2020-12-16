@@ -15,7 +15,7 @@ function create() {
   if (isDev) {
     win.loadURL("http://localhost:8000");
   } else {
-    win.loadFile(path.resolve(__dirname, '../../../electron-renderer/dist/umi.html'));
+    win.loadFile(path.resolve(__dirname, '..//pages/main/index.html'));
   }
 }
 
